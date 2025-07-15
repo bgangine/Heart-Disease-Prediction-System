@@ -45,6 +45,45 @@ A machine learning-powered web application for predicting the risk of heart dise
 - Python 3.7+
 - pip (Python package manager)
 
-### Installation
+The web app will be available at `http://localhost:5000/`.
 
-1. **Clone the repository:**
+---
+
+## Usage
+
+1. **Open the web application** in your browser.
+2. **Enter your health parameters** (such as age, blood pressure, cholesterol, etc.).
+3. **Submit the form** to receive your heart disease risk prediction.
+4. **Download the PDF report** for your records.
+5. **Explore health advice** and model explanations for better understanding.
+
+---
+
+## Technologies Used
+
+- **Backend:** Python, Flask
+- **Frontend:** HTML, CSS (in `templates/` and `static/`)
+- **Machine Learning:** scikit-learn, pandas, numpy
+- **Visualization:** matplotlib, seaborn
+- **Voice Input:** speech recognition libraries
+- **PDF Generation:** ReportLab or similar
+
+---
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
+
+---
+
+## License
+
+This project is for educational and research purposes. Please review the repository for licensing details.
+
+---
+
+## Acknowledgments
+
+Inspired by open-source heart disease prediction projects and the need for accessible healthcare technology.
+
+
